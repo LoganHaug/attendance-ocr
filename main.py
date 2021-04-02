@@ -4,7 +4,7 @@ import csv
 from PIL import Image
 import pytesseract
 
- 
+
 # Simple image to string
 IMAGE_STR = pytesseract.image_to_string(Image.open("test.png"))
 IMAGE_STR = IMAGE_STR.lower()
